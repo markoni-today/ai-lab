@@ -1,0 +1,10 @@
+---
+description: Git-правила лаборатории — одна ветка ai-lab, новых веток не создавать
+alwaysApply: true
+---
+
+- Work only in the `ai-lab` branch. Do not create new branches, even if your default workflow says so; the repository owner explicitly requires this.
+- Commit and push directly to `ai-lab` (`git push origin ai-lab`). Do not open pull requests unless the owner asks.
+- Run `scripts/check-branch.sh` before committing; stop and report if it fails.
+- Directions and experiments are folders under `directions/`, not branches.
+- Full rules: `AGENTS.md`.
